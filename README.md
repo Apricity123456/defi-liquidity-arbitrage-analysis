@@ -19,13 +19,13 @@
 
 ##  项目内容
 ### **1️资金池流动性分析**
-📌 `notebooks/01_liquidity_analysis.ipynb`
+ `notebooks/01_liquidity_analysis.ipynb`
 - Uniswap v3 TVL 变化趋势
 - 交易量 vs TVL 相关性分析
 - 资金流入流出趋势
 
 ### **2️ DEX 套利分析**
-📌 `notebooks/02_arbitrage_analysis.ipynb`
+ `notebooks/02_arbitrage_analysis.ipynb`
 - Uniswap vs SushiSwap 价格对比
 - 计算套利空间（百分比差值）
 - 套利窗口趋势分析（何时最适合套利？）
