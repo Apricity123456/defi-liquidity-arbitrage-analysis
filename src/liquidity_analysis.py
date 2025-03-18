@@ -34,4 +34,4 @@ df.drop(columns=["TVL_change_rate_norm", "utilization_rate_norm", "fee_revenue_n
 # 保存计算结果
 df.to_csv("../data/uniswap_liquidity_analysis.csv", index=False)
 
-print("✅ 流动性分析完成，已保存到 data/uniswap_liquidity_analysis.csv")
+print(" 流动性分析完成，已保存到 data/uniswap_liquidity_analysis.csv")

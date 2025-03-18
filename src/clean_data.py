@@ -17,4 +17,4 @@ df = df[df["total_liquidity_removed"] < 1e10]
 # 保存处理后的数据
 df.to_csv("../data/uniswap_liquidity_data_cleaned.csv", index=False)
 
-print("✅ 数据清理完成，已保存到 data/uniswap_liquidity_data_cleaned.csv")
+print(" 数据清理完成，已保存到 data/uniswap_liquidity_data_cleaned.csv")

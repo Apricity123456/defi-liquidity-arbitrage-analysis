@@ -17,7 +17,7 @@ plt.xticks(rotation=45)
 plt.grid()
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
 plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=1))
-# ✅ 保存 TVL 变化图
+#  保存 TVL 变化图
 plt.savefig("../image/tvl_trend.png")
 plt.close()
 
@@ -32,7 +32,7 @@ plt.xticks(rotation=45)
 plt.grid()
 plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
 plt.gca().xaxis.set_major_locator(mdates.DayLocator(interval=1))
-# ✅ 保存交易量变化图
+#  保存交易量变化图
 plt.savefig("../image/trading_volume_trend.png")
 plt.close()
 #绘制 资金利用率 随时间变化
@@ -51,4 +51,4 @@ plt.savefig("../image/utilization_rate_trend.png")
 plt.close()
 
 
-print("✅ 图表已保存到 image/ 目录下：tvl_trend.png, trading_volume_trend.png,utilization_rate_trend.png")
+print(" 图表已保存到 image/ 目录下：tvl_trend.png, trading_volume_trend.png,utilization_rate_trend.png")
